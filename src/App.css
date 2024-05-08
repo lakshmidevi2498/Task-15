@@ -1,0 +1,136 @@
+
+body{
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+.icon{
+  margin-left:15px
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+li{
+  list-style-type:none;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: white;
+  padding: 18px 16px;
+  border-radius: 50%;
+  border: 2px solid black;
+
+}
+.swiper [class^="swiper-button-"]::after{
+  font-size: 15px;
+}
+
+.cards:hover {
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+  
+
+
+@media only screen and (max-width:1025px){
+
+  
+  .icons{
+    display: inline-block;
+  }
+  
+}
+@media only screen and (max-width:769px){
+  #address {
+    display: none;
+  }
+  
+  
+}
+
+@media only screen and (max-width:426px) {
+  
+  #address {
+    display: none;
+  }
+  .icon{
+    margin-left: auto;
+    display:flex
+  }
+  #top,.div1,.div2,.div3,.div4{
+    max-width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 20px;
+      /* margin: auto; */  
+  }
+  .image-text {
+    font-size: 28px;
+}
+
+  
+  }
